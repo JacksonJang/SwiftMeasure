@@ -26,5 +26,6 @@ for _ in 0..<10000000 {
 let startTime = CFAbsoluteTimeGetCurrent()
 let endTime = CFAbsoluteTimeGetCurrent() - startTime
 ```
+startTime은 시작할 때 시간, endTime은 시작한 시간을 뺀 종료시간 값을 의미
 
 #### 실행 환경에 따라 시간은 다를 수 있다.
