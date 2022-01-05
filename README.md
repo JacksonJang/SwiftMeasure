@@ -21,4 +21,10 @@ for _ in 0..<10000000 {
 }
 ```
 
+## CFAbsoluteTimeGetCurrent()
+```swift
+let startTime = CFAbsoluteTimeGetCurrent()
+let endTime = CFAbsoluteTimeGetCurrent() - startTime
+```
+
 #### 실행 환경에 따라 시간은 다를 수 있다.
